@@ -1,0 +1,237 @@
+@font-face{
+
+    font-family: 'Aalen';
+    
+    src: url('../fonts/AG\ Aalen/');
+    
+    src: url('../fonts/AG\ Aalen/AGAalenBold-Roman.eot') format('eot'),
+    
+    url('../fonts/AG\ Aalen/AGAalenBold-Roman.woff') format('woff'),
+    
+    url('../fonts/AG\ Aalen/AGAalenBold-Roman.ttf') format('truetype'),
+    
+    url('../fonts/AG\ Aalen/AGAalenBold-Roman.svg') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+
+@font-face{
+
+font-family: 'Souvenir';
+
+src: url('../fonts/AG\ Souvenir/');
+
+src: url('../fonts/AG\ Souvenir/AGSouvenir.eot') format('eot'),
+
+url('../fonts/AG\ Souvenir/AGSouvenir.woff') format('woff'),
+
+url('../fonts/AG\ Souvenir/AGSouvenir.ttf') format('truetype'),
+
+url('../fonts/AG\ Souvenir/AGSouvenir.svg') format('svg');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+@font-face{
+
+font-family: 'Bighouse';
+
+src: url('../fonts/Bighouse/');
+
+src: url('../fonts/Bighouse/Bighouse.eot') format('eot'),
+
+url('../fonts/Bighouse/Bighouse.woff') format('woff'),
+
+url('../fonts/Bighouse/Bighouse.ttf') format('truetype'),
+
+url('../fonts/Bighouse/Bighouse.svg') format('svg');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+@font-face{
+
+    font-family: 'A_Cooper';
+    
+    src: url('../fonts/A_Cooper/');
+    
+    src: url('../fonts/A_Cooper/A_Cooper.eot') format('eot'),
+    
+    url('../fonts/A_Cooper/A_Cooper.woff') format('woff'),
+    
+    url('../fonts/A_Cooper/A_Cooper.ttf') format('truetype'),
+    
+    url('../fonts/A_Cooper/A_Cooper.svg') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+
+@font-face{
+
+    font-family: 'AG_Letterica';
+    
+    src: url('../fonts/AG_Letterica/');
+    
+    src: url('../fonts/AG_Letterica/AG_Letterica.eot') format('eot'),
+    
+    url('../fonts/AG_Letterica/AG_Letterica.woff') format('woff'),
+    
+    url('../fonts/AG_Letterica/AG_Letterica.ttf') format('truetype'),
+    
+    url('../fonts/AG_Letterica/AG_Letterica.svg') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}    
+
+@font-face{
+
+    font-family: 'Foreigner';
+    
+    src: url('../fonts/Foreigner/');
+    
+    src: url('../fonts/Foreigner/Foreigner.eot') format('eot'),
+    
+    url('../fonts/Foreigner/Foreigner.woff') format('woff'),
+    
+    url('../fonts/Foreigner/Foreigner.ttf') format('truetype'),
+    
+    url('../fonts/Foreigner/Foreigner.svg') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}    
+
+@font-face{
+
+    font-family: 'Crash';
+    
+    src: url('../fonts/Crash/');
+    
+    src: url('../fonts/Crash/Crash.eot') format('eot'),
+    
+    url('../fonts/Crash/Crash.woff') format('woff'),
+    
+    url('../fonts/Crash/Crash.ttf') format('truetype'),
+    
+    url('../fonts/Crash/Crash.svg') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}    
+
+@font-face{
+
+    font-family: 'ABodon';
+    
+    src: url('../fonts/ABodon/');
+    
+    src: url('../fonts/ABodon/ABodon.eot') format('eot'),
+    
+    url('../fonts/ABodon/ABodon.woff') format('woff'),
+    
+    url('../fonts/ABodon/ABodon.ttf') format('truetype'),
+    
+    url('../fonts/ABodon/ABodon.svg') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}   
+
+@font-face{
+
+    font-family: 'Colaborate';
+    
+    src: url('../fonts/Colaborate/');
+    
+    src: url('../fonts/Colaborate/Colaborate.eot') format('eot'),
+    
+    url('../fonts/Colaborate/Colaborate.woff') format('woff'),
+    
+    url('../fonts/Colaborate/Colaborate.ttf') format('truetype'),
+    
+    url('../fonts/Colaborate/Colaborate.svg') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}   
+@font-face{
+
+    font-family: 'Colaborate-Thin';
+    
+    src: url('../fonts/Colaborate-Thin/');
+    
+    src: url('../fonts/Colaborate-Thin/Colaborate-Thin.eot') format('eot'),
+    
+    url('../fonts/Colaborate-Thin/Colaborate-Thin.woff') format('woff'),
+    
+    url('../fonts/Colaborate-Thin/Colaborate-Thin.ttf') format('truetype'),
+    
+    url('../fonts/Colaborate-Thin/Colaborate-Thin.svg') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}   
+@font-face{
+
+    font-family: 'Benguiat';
+    
+    src: url('../fonts/Benguiat/');
+    
+    src: url('../fonts/Benguiat/Benguiat.eot') format('eot'),
+    
+    url('../fonts/Benguiat/Benguiat.woff') format('woff'),
+    
+    url('../fonts/Benguiat/Benguiat.ttf') format('truetype'),
+    
+    url('../fonts/Benguiat/Benguiat.svg') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}   
+@font-face{
+
+    font-family: 'Helvetica-normal';
+    
+    src: url('../fonts/Helvetica-normal/');
+    
+    src: url('../fonts/Helvetica-normal/Helvetica-normal.eot') format('eot'),
+    
+    url('../fonts/Helvetica-normal/Helvetica-normal.woff') format('woff'),
+    
+    url('../fonts/Helvetica-normal/Helvetica-normal.ttf') format('truetype'),
+    
+    url('../fonts/Helvetica-normal/Helvetica-normal.svg') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}   
+    

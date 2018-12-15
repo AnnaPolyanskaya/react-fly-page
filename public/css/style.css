@@ -1,0 +1,537 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 971px;
+    margin: auto;
+    padding-left: 18px;
+}
+.main-head{
+    background-image: url('../img/bg-main.png');
+    background-position: top;
+    background-size: 100%;
+}
+.main-head .nav{
+    position: relative;
+    display: flex;
+    background: url('../img/menu-bg.png') no-repeat center /100% ;
+    height: 84px;
+}
+
+.main-head .nav ul{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    margin-left: 320px;
+    width: calc(100% - 260px);
+    
+}
+.main-head .nav ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+.main-head .nav ul li a:hover{
+    color: #81ffff;
+}
+.main-head .nav ul li a{
+    text-decoration: none;
+    font-family: 'Souvenir', Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    margin-right: 61px;
+
+}
+.comp-name{
+    background-color: #e1ecf2;
+    border: 7px solid #fff;
+    border-radius: 10px; 
+    padding: 30px 24px;
+    transform: rotate(-7deg);
+    position: absolute;
+    left: 31px;
+    top: -20px;
+}
+.comp-name a{
+    font-family: 'Aalen', Arial, Helvetica, sans-serif !important;
+    font-size: 33px !important;
+    color: #299fca !important;
+    text-align: center;
+}
+.comp-name span{
+    display: block;
+    font-family: Arial;
+    font-size: 15px;
+    color: #299fca;
+    text-align: center;
+}
+
+/* Airplane area */
+.airplane{
+
+}
+.airplane__left{
+    position: relative;
+    max-width: 655px;
+    text-align: center;
+    float: left;
+   
+}
+.airplane__left h2{
+    color: #127ea5;
+    font-family: 'Bighouse', Arial, Helvetica, sans-serif;
+    font-size: 51px;
+    text-transform: uppercase;
+    position: relative;
+    top: 43px;
+    left: 35px;
+    z-index: 3;
+}
+.airplane__left p{
+    text-align: center;
+    color: #ded90e;
+    font-family: "A_Cooper", Arial, Helvetica, sans-serif;
+    max-width: 293px;
+    z-index: 3;
+    font-size: 25px;
+    margin: 0 0 0 93px;
+    position: relative;
+    z-index: 3  ;
+
+}
+.airplane__left .text{
+    max-width: 550px;
+    position: relative;
+    left: 186px;
+    padding-top: 66px;
+   
+}
+.airplane__left .cloud{
+    position: absolute;
+    top: 52px;
+    left: -88px;
+    z-index: 1;
+}
+#plane{
+    position: absolute;
+    top: 84px;
+    left: 2px;
+    z-index: 2;
+}
+
+.airplane__right{
+    width: 260px;
+    background: #299fca;
+    border: 7px solid #7ebee0;
+    border-radius: 30px;
+    margin-left: 672px;
+    padding: 24px;
+    height: 405px;
+}
+.airplane__right .title{
+    color: #fff;
+    font-family: 'AG_Letterica', Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    background: url('../img//ribbon.png') no-repeat center /100%;
+    position: relative;
+    left: -45px;
+    padding: 10px 15px;
+}
+.airplane__right  .form{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.airplane__right  .form .item{
+    margin: auto;
+    display: flex;
+    margin-bottom: 13px;
+}
+.airplane__right .form .item span{
+    color: #fff;
+    font-family: 'Foreigner', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-right: 10px;
+    width: 80px;
+    text-align: right;
+}
+.airplane__right .form .item input, .airplane__right .form  .item textarea{
+    background: #fff;
+    border: 5px solid #a7d1e6;
+    border-radius: 10px;
+    padding: 4px 0px;
+    width: 170px;
+}
+
+select{
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  background: #2c3e50;
+  background-image: none;
+  
+    
+}
+#package{
+    background: url('../img/sel.png') no-repeat #fff;
+    background-position: 100% 50%;
+    border-radius: 5px;
+    height: 30px;
+    border: 5px solid #a7d1e6;
+    border-radius: 10px;
+    width: 170px !important;
+    height: 35px;
+    color: #299fca;
+    font-family: 'Foreigner', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 4px 5px ;
+}
+
+.airplane__right  .form  .bottom{
+    position: relative;
+}
+.airplane__right  .form  .bottom .gold-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.gold-btn{
+    font-family: 'AG_Letterica', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #64affc;
+    background: #ded90e;
+    border: 3px solid #ded90e;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+.gold-btn:hover{
+    color: #ded90e;
+    background: transparent;
+}
+/* Ends Airplane area */
+
+/* Clouds area */
+.clouds{
+    position: relative;
+    background: #127ea5;
+    min-height: 450px;
+}
+.clouds .abs-clouds-1{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: -238px;
+    z-index: -1;
+}
+.clouds .abs-clouds-2{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: -136px;
+    z-index: 1;
+}
+
+.clouds__container{
+    display: flex;
+    height: 300px;
+    position: relative;
+    z-index: 10;
+}
+.clouds .offers{
+    position: relative;
+    z-index: 10;
+    width: 330px;
+    padding: 0 26px;
+}
+.clouds .offers .title{
+    font-family: 'ABodon', Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 29px;
+}
+
+.clouds .offer{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 3px dotted #fff;
+}
+.clouds .offer:last-child{
+    border-bottom: none;
+}
+.clouds .offer__img{
+    width: 85px;
+    height: 65px;
+    position: relative;
+    margin-right: 15px;
+}
+.clouds .offer__content{
+    max-width: 215px;
+    color: #fff;
+    font-family: 'Colaborate', Arial, Helvetica, sans-serif;
+}
+.clouds .offer__content h3{
+    font-size: 17px;
+}
+.clouds .offer__content p{
+    font-size: 15px;
+    font-family: 'Colaborate-Thin', Arial, Helvetica, sans-serif;
+
+}
+.clouds .offer__foot{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding-bottom: 9px;
+}
+.clouds .offer__foot .price{
+    font-family: 'Benguiat', Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    color: #fff;
+    margin-right: 5px;
+}
+/* // TAB */
+.tab {
+	
+	position: relative;
+	line-height: 1.5;
+	font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+.tabs {
+	display: table;
+	position: relative;
+	margin: 0;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #81ffff;
+    list-style: none;
+}
+.tabs li {
+    float: left;
+    line-height: 38px;
+    padding: 0;
+    position: relative;
+    color: #81ffff;
+    background: #299fca;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Helvetica-normal', Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+.current{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tabs a {
+    max-height: 30px;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 0px 32px;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.tabs_item {
+	display: none;
+	padding: 30px 0;
+}
+.tabs h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.tabs img {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+    
+}
+.tabs_item .photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabs_item .photos .photo-item{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 5px 10px 0 0;
+}
+.tabs_item .photos .photo-item img{
+    max-width: 150px;
+    max-height: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.tabs_item:first-child {display: block;}
+
+.current a {
+    color: #2898b7;
+    background: #81ffff;
+}
+.clouds-right{
+    margin: 43px 0 0 52px;
+}
+.clouds-right .list-item{
+    display: flex;
+    color: #fff;
+    font-family: 'Colaborate-Thin', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.clouds-right .list-item .img{
+    margin-right: 10px;
+}
+.clouds-right .list-item .text{
+    margin-right: 40px;
+    width: 292px;
+    font-size: 16px;
+}
+.clouds-right .special{
+    position: absolute;
+    right: -31px;
+    bottom: 0;
+    height: 107px;
+}
+.clouds-right .list-item .days{
+    margin-right: 55px;
+}
+/* // END TAB */
+/* Ends Clouds area */
+
+/* Map area */
+.map{
+    background: url('../img/map.png');
+    height: 543px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.map-title{
+    color: #4690b4;
+    text-align: center;
+    font-family: 'AG_Letterica', Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+.map-subtitle{
+    color: #6ab5d0;
+    text-align: center;
+    font-family: 'AG_Letterica', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.map-list{
+    width: 245px;
+    height: 270px;
+    position: relative;
+    z-index: 4;
+    padding: 15px;
+    top: 78px;
+    left: 138px;
+}
+.map-list__item{
+    display: flex;
+    color: #a4a4a4;
+}
+.map-list__item .img{
+    height: 50px;
+    width: 70px;
+    margin-right: 15px;
+    position: relative;
+}
+.map-list__item .img img{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    object-fit:cover; 
+    position: absolute;
+}
+ .relative{
+    position: relative;
+    z-index: 10;
+}
+.info-bg{
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+
+}
+.map-list__item .title{
+    font-family: 'Colaborate', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.map-list__item .content{
+    display: flex;
+    flex-direction: column;
+}
+.map-list__item .text{
+    font-family: 'Colaborate-Thin', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* Ends Map area */
+
+/* Footer area */
+.main-foot{
+    background: #137fa7;
+    padding: 25px 0;
+}
+.foot-cntnr{
+    display: flex;
+    margin: auto;
+}
+.foot-col{
+    margin-right: 50px;
+}
+.foot-form input[type=text]{
+    width: 193px;
+    height: 31px;
+    box-shadow: inset 1px 3px 8px rgba(13, 66, 85, 0.75);
+    border: 1px solid #ff0000;
+    background-color: #0f6686;
+    box-shadow: inset 1px 3px 8px rgba(13, 66, 85, 0.75);
+    border: 1px solid #ff0000;
+    background-color: #0f6686;
+}
+.foot-form input[type=submit]{
+    width: 193px;
+    height: 31px;
+    box-shadow: inset 1px 3px 8px rgba(13, 66, 85, 0.75);
+    border: 1px solid #ff0000;
+    background-color: #0f6686;
+}
+.main-foot .title{
+    font-family: 'Colaborate', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+.foot-soc{
+    margin-top: 30px;
+}
+/* Ends Footer area */
